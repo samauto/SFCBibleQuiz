@@ -2,7 +2,7 @@
   "images" : [
     {
       "idiom" : "universal",
-      "filename" : "KG_60.jpeg",
+      "filename" : "KG_60.jpg",
       "scale" : "1x"
     },
     {
@@ -12,7 +12,7 @@
     },
     {
       "idiom" : "universal",
-      "filename" : "KG-2.jpeg",
+      "filename" : "KG.jpeg",
       "scale" : "3x"
     }
   ],

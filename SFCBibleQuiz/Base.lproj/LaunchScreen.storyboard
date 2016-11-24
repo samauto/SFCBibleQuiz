@@ -1,7 +1,10 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11134" systemVersion="15F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="01J-lp-oVM">
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11201" systemVersion="16A323" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="01J-lp-oVM">
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11106"/>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11161"/>
+        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
@@ -16,12 +19,45 @@
                     <view key="view" contentMode="scaleToFill" id="Ze5-6b-2t3">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="SHARON FELLOWSHIP CHURCH" borderStyle="roundedRect" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="yC4-Mw-dkl">
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="yC4-Mw-dkl" secondAttribute="height" multiplier="343:30" id="FiK-Y1-s5T"/>
+                                </constraints>
+                                <nil key="textColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="30"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="NATIONAL SUNDAY SCHOOL" borderStyle="roundedRect" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="bvb-Nn-kkL">
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="bvb-Nn-kkL" secondAttribute="height" multiplier="343:30" id="faA-Xj-Ree"/>
+                                </constraints>
+                                <nil key="textColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="23"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                        </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="bvb-Nn-kkL" firstAttribute="leading" secondItem="Ze5-6b-2t3" secondAttribute="leadingMargin" id="37A-N4-bqu"/>
+                            <constraint firstItem="bvb-Nn-kkL" firstAttribute="trailing" secondItem="Ze5-6b-2t3" secondAttribute="trailingMargin" id="4vA-Zr-Zjx"/>
+                            <constraint firstItem="bvb-Nn-kkL" firstAttribute="top" secondItem="yC4-Mw-dkl" secondAttribute="bottom" constant="19" id="FEu-OM-yqw"/>
+                            <constraint firstItem="yC4-Mw-dkl" firstAttribute="leading" secondItem="Ze5-6b-2t3" secondAttribute="leadingMargin" id="K99-Cd-87s"/>
+                            <constraint firstItem="yC4-Mw-dkl" firstAttribute="trailing" secondItem="Ze5-6b-2t3" secondAttribute="trailingMargin" id="NFv-0i-xrw"/>
+                            <constraint firstItem="yC4-Mw-dkl" firstAttribute="leading" secondItem="Ze5-6b-2t3" secondAttribute="leadingMargin" id="ale-DU-Loz"/>
+                            <constraint firstItem="bvb-Nn-kkL" firstAttribute="width" secondItem="yC4-Mw-dkl" secondAttribute="width" id="cMt-bY-jWe"/>
+                            <constraint firstItem="bvb-Nn-kkL" firstAttribute="height" secondItem="yC4-Mw-dkl" secondAttribute="height" id="dVN-bF-My2"/>
+                            <constraint firstItem="bvb-Nn-kkL" firstAttribute="leading" secondItem="Ze5-6b-2t3" secondAttribute="leadingMargin" id="lyg-Eg-XFg"/>
+                            <constraint firstItem="yC4-Mw-dkl" firstAttribute="top" secondItem="Llm-lL-Icb" secondAttribute="bottom" constant="274" id="qH2-N2-uPw"/>
+                            <constraint firstItem="yC4-Mw-dkl" firstAttribute="trailing" secondItem="Ze5-6b-2t3" secondAttribute="trailingMargin" id="qVl-rC-Iwp"/>
+                            <constraint firstItem="bvb-Nn-kkL" firstAttribute="trailing" secondItem="Ze5-6b-2t3" secondAttribute="trailingMargin" id="qaA-98-1nU"/>
+                            <constraint firstItem="xb3-aO-Qok" firstAttribute="top" secondItem="bvb-Nn-kkL" secondAttribute="bottom" constant="294" id="zaf-AE-WsD"/>
+                        </constraints>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="iYj-Kq-Ea1" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="53" y="375"/>
+            <point key="canvasLocation" x="52" y="374.66266866566718"/>
         </scene>
     </scenes>
 </document>

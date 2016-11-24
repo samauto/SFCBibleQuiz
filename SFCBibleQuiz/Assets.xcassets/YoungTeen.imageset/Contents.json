@@ -2,17 +2,17 @@
   "images" : [
     {
       "idiom" : "universal",
-      "filename" : "YOUNGTEEN.jpeg",
+      "filename" : "YOUNGTEEN_60.jpeg",
       "scale" : "1x"
     },
     {
       "idiom" : "universal",
-      "filename" : "YOUNGTEEN-1.jpeg",
+      "filename" : "YOUNGTEEN_120.jpeg",
       "scale" : "2x"
     },
     {
       "idiom" : "universal",
-      "filename" : "YOUNGTEEN-2.jpeg",
+      "filename" : "YOUNGTEEN.jpeg",
       "scale" : "3x"
     }
   ],

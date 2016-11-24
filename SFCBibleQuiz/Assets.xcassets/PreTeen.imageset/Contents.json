@@ -2,17 +2,17 @@
   "images" : [
     {
       "idiom" : "universal",
-      "filename" : "PRETEEN.jpeg",
+      "filename" : "PRETEEN_60.jpeg",
       "scale" : "1x"
     },
     {
       "idiom" : "universal",
-      "filename" : "PRETEEN-1.jpeg",
+      "filename" : "PRETEEN_120.jpeg",
       "scale" : "2x"
     },
     {
       "idiom" : "universal",
-      "filename" : "PRETEEN-2.jpeg",
+      "filename" : "PRETEEN.jpeg",
       "scale" : "3x"
     }
   ],

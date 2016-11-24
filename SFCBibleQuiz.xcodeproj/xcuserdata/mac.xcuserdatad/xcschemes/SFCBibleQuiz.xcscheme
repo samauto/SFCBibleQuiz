@@ -28,26 +28,6 @@
       selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
       shouldUseLaunchSchemeArgsEnv = "YES">
       <Testables>
-         <TestableReference
-            skipped = "NO">
-            <BuildableReference
-               BuildableIdentifier = "primary"
-               BlueprintIdentifier = "04E40E261DBD595100F4CB0E"
-               BuildableName = "SFCBibleQuizTests.xctest"
-               BlueprintName = "SFCBibleQuizTests"
-               ReferencedContainer = "container:SFCBibleQuiz.xcodeproj">
-            </BuildableReference>
-         </TestableReference>
-         <TestableReference
-            skipped = "NO">
-            <BuildableReference
-               BuildableIdentifier = "primary"
-               BlueprintIdentifier = "04E40E311DBD595100F4CB0E"
-               BuildableName = "SFCBibleQuizUITests.xctest"
-               BlueprintName = "SFCBibleQuizUITests"
-               ReferencedContainer = "container:SFCBibleQuiz.xcodeproj">
-            </BuildableReference>
-         </TestableReference>
       </Testables>
       <MacroExpansion>
          <BuildableReference
@@ -81,13 +61,6 @@
             ReferencedContainer = "container:SFCBibleQuiz.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
-      <EnvironmentVariables>
-         <EnvironmentVariable
-            key = "OS_ACTIVITY_MODE"
-            value = "disable"
-            isEnabled = "YES">
-         </EnvironmentVariable>
-      </EnvironmentVariables>
       <AdditionalOptions>
       </AdditionalOptions>
    </LaunchAction>

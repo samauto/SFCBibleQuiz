@@ -1,6 +1,6 @@
 //
-//  SFCBibleQuizUITests.swift
-//  SFCBibleQuizUITests
+//  SFCSUNSCHUITests.swift
+//  SFCBSUNSCHUITests
 //
 //  Created by Mac on 10/23/16.
 //  Copyright © 2016 4STDESIGN. All rights reserved.
@@ -8,7 +8,7 @@
 
 import XCTest
 
-class SFCBibleQuizUITests: XCTestCase {
+class SFCBSUNSCHUITests: XCTestCase {
         
     override func setUp() {
         super.setUp()

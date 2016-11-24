@@ -15,3 +15,11 @@ struct Question {
     var Answer: Int!
 }
 //END OF STRUCT: Question
+
+//STRUCT: TFQuestion
+struct TFQuestion {
+    var Question: String!
+    var Answers: [String]!
+    var Answer: Int!
+}
+//END OF STRUCT: TFQuestion
